@@ -139,14 +139,3 @@ Data/
 ```
 
 
-# Addendum
-
-For follow-up experiments, we also use ImageNet data (more specifically, the subset for which there are bounding boxes). How to download that is specified in `./Get_ImageNet`. The bounding boxes can be downloaded with
-
-```
-wget http://image-net.org/Annotation/Annotation.tar.gz
-```
-
-The images and the boxes should then be available as `./Images/ImageNet/Annotations` / `./Images/ImageNet/Images`.
-
-
